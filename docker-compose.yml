@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  rstudio:
+    image: rstudiodev
+    build: .
+    ports:
+      - 8787:8787
+    volumes:
+      - ./:/home/rstudio/06-rstudio/
+    environment:
+      - DISABLE_AUTH=true

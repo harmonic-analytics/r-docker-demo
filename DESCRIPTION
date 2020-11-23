@@ -1,0 +1,5 @@
+Package: rstudio
+Imports: 
+  readr,
+  dplyr,
+  data.table
