@@ -51,16 +51,16 @@ Visit localhost:8787 in your browser.
 
 Run arbitrary code (e.g. check versions)
 ```
-docker run -v "$(pwd)/.:/home/rstudio/06-rstudio" rstudiodev Rscript scripts/print_session_info.R
+docker run -v "$(pwd)/.:/home/rstudio/r-docker-demo" rstudiodev Rscript scripts/print_session_info.R
 ```
 
 Generate artifacts (to your disk)
 ```
-docker run -v "$(pwd)/.:/home/rstudio/06-rstudio" rstudiodev Rscript scripts/save_data.R
+docker run -v "$(pwd)/.:/home/rstudio/r-docker-demo" rstudiodev Rscript scripts/save_data.R
 ```
 
 Launch Shiny app (visit localhost:3838) in your browser.
 ```
-docker run -p 3838:3838 -v "$(pwd)/.:/home/rstudio/06-rstudio" rstudiodev Rscript scripts/launch_shiny_app.R
+docker run -p 3838:3838 -v "$(pwd)/.:/home/rstudio/r-docker-demo" rstudiodev Rscript scripts/launch_shiny_app.R
 ```
 

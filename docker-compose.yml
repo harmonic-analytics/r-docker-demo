@@ -7,6 +7,6 @@ services:
     ports:
       - 8787:8787
     volumes:
-      - ./:/home/rstudio/06-rstudio/
+      - ./:/home/rstudio/r-docker-demo/
     environment:
       - DISABLE_AUTH=true
