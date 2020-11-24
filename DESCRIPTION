@@ -1,5 +1,13 @@
-Package: rstudio
+Package: r-docker-demo
+Title: Docker examples with R
+Version: 1.0.0
+Authors@R: 
+    person(given = "Matt",
+           family = "Lie",
+           role = c("aut", "cre"),
+           email = (matt@harmonic.co.nz")
+Description: Docker examples with R
 Imports: 
-  readr,
-  dplyr,
-  data.table
+    readr,
+    dplyr,
+    data.table
