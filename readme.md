@@ -40,7 +40,7 @@ docker-compose up --build
 
 Visit localhost:8787 in your browser.
 
-### Congifuration
+### Configuration
 
   * The R version can be changed in line 2 of `Dockerfile`
   * Packages required to be installed are specified in the `DESCRIPTION` file.
